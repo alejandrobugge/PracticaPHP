@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enviar Correo</title>
+</head>
+<body>
+  <h1>Formulario de contacto</h1>
+  <form action="enviar.php" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label for="email">Tu Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea name="mensaje" rows="5" required></textarea><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
